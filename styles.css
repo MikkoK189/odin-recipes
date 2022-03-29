@@ -1,0 +1,30 @@
+body {
+  background-color: lightslategray;
+}
+
+.flex-container {
+  flex-direction: column;
+  display: flex;
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 80px;
+  flex: 1 1 auto;
+}
+
+.image {
+  height: 300px;
+  width: auto;
+  position: relative;
+  left: 40%;
+}
+
+.recipe-flex {
+  flex-direction: row;
+  display: flex;
+  background: lightpink;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
